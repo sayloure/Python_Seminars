@@ -7,8 +7,9 @@ Output:
 2
 """
 
-n = 700
-m = 750
+n = int(input("Введите n: "))
+m = int(input("Введите m: "))
 
-days = m / n 
+# days = (m + (n - 1)) // n
+days = ((-m) // n) * (-1)
 print(days)
