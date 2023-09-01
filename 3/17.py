@@ -22,7 +22,7 @@ Output: 6
 # Способ 3
 List_1 = [1, 1, 2, 0, -1, 3, 4, 4]
 counter = 0
-for i in range(len(list_1)):
-    if list_1[i] not in list_1[:i]:
+for i in range(len(List_1)):
+    if List_1[i] not in List_1[:i]:
         counter += 1
 print(counter)
